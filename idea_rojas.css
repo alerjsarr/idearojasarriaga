@@ -226,7 +226,6 @@ h1{
     font-size: 3rem;
     text-align: center;
 }
-
 @media (max-width:400px){
     .padre{
         flex-direction: column;  
@@ -237,10 +236,10 @@ h1{
 footer{
     padding:1rem;
     height: 9rem;
-    background-color: purple;
+    background-color:black;
     color: white;
 }
 h5{
-    text-align: center;
+    text-align: right;
 }
 
