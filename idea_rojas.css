@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/*MENU*/
+nav{
+    padding: 0.7rem;
+}
+h2{
+    text-align: start;
+    color: floralwhite;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul a{
+    display:inline-block;
+    padding: 0.7rem;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: floralwhite;
+    font-weight: bold;
+}
+
+/*PÁGINA PRINCIPAL*/
+main{
+    width: 100%;
+    text-align: center;
+}
+section{
+    width: 100%;
+    background-color: #e056fd;
+    background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%);
+    border: 2px solid black;
+}
+.section1{
+    background-image: url(./fotos/primera_imagen2.0.jpeg);
+    background-size: cover;
+    height: 40rem;
+    text-align: center;
+}
+.section2{
+    background-image: url(./fotos/indoor_8.png);
+    background-size: cover;
+    height: 40rem;
+    text-align: center;
+}
+.comprarclasestitle{
+    font-style: bold;
+    color: white;
+    font-size: 2.3rem;
+    background-color: black;
+}
+.section3{
+    background-image: url(./fotos/indoor_5.jpeg);
+    background-size: cover;
+    height: 40rem;
+    text-align: center;
+
+    display: flex;
+}
+.section3 div{
+        width: 50%;
+        padding: 12rem;
+        flex-direction: row;
+}
+.opcionescompra{
+    width: 100%;
+    height: 30vh;
+    font-size: 2rem;
+    margin: 20px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3 1fr);
+    gap: 10px;
+}
+
+/*RESERVAR CLASES*/
+.SemanaInstructores{
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    line-height: 1.3;
+    padding: 10px;
+    text-align: center;
+}
+.dias{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 1.3;
+}
+li{
+    display: inline-block;
+    text-align:center;
+    padding: 1rem;
+}
+.imagencalendario{
+    background-image: url(./fotos/reserva_calendario.png);
+    background-size: cover;
+    height: 20rem;
+}
+.seleccionlugares{
+    background-image: url(./fotos/lugares_indoor.png);
+    background-size: cover;
+    height:40rem;
+    width: 1000px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/*COMPRAR CLASES*/
+.imagenfondocompraclase{
+    background-image:url(./fotos/indoor_8.png);
+}
+.resumendecompra{
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    line-height: 1.3;
+    padding: 20px;
+    font-size: small;
+    text-align: justify;
+}
+.formulario{
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%); 
+    text-align: center;
+    margin: 33rem;
+    margin-top:0;
+    padding: 20px;
+    width: 600px;  
+    height: 24rem;
+    line-height:2em;
+}
+
+/*NOSOTROS*/
+.us{
+    text-align: left;
+    margin-left: 20px;
+}
+main{
+    display: inline-block;
+}
+.nosotros{
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    margin: 100px;
+    width: 40rem;
+    padding: 20px;
+    line-height: 2em;
+    border-radius: 5px;
+}
+.galeria{
+    text-align:right;
+
+
+}
+
+/*LOGIN*/
+.welcome{
+    background-image: url(./fotos/indoor_12.png);
+    height: 20rem;
+    background-size:contain;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.iniciarsesion{
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%); 
+    text-align: center;
+    font-size: 2em;
+    margin: 33rem;
+    margin-top:0;
+    padding: 20px;
+    width: 500px;  
+    height: 24rem;
+    line-height:3em;
+}
+
+/*CREAR CUENTA*/
+
+.padre{
+    display: flex;
+}
+.padre div{
+    width: 50%;
+    padding: 12rem;
+    padding-bottom: 24rem;
+    flex-direction: row;
+}
+
+.welcomeregist{
+    background-image: url(./fotos/indoor_12.png);
+    background-size:cover;
+    text-align: start;
+
+}
+h1{
+    font-weight: 400;
+    font-size: 4rem;
+
+}
+.takearide{
+    font-style: italic;
+}
+.registrate{
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%); 
+    background-size: cover;
+    text-align:center;
+    font-size: medium;
+    border: 12rem;
+    margin-top:0;
+    font-size: 1rem;  
+}
+.regis{
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+@media (max-width:400px){
+    .padre{
+        flex-direction: column;  
+    }
+
+}
+/*FOOTER*/
+footer{
+    padding:1rem;
+    height: 9rem;
+    background-color:black;
+    color: white;
+}
+h5{
+    text-align: right;
+}
+
