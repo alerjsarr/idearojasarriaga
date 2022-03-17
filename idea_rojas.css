@@ -25,6 +25,7 @@ nav ul a{
     display:inline-block;
     padding: 0.7rem;
     text-decoration: none;
+    color:rgb(93, 9, 93);
 }
 nav ul a:hover{
     color: floralwhite;
@@ -33,26 +34,32 @@ nav ul a:hover{
 
 /*PÁGINA PRINCIPAL*/
 main{
-    width: 100%;
     text-align: center;
 }
-section{
-    width: 100%;
+.section1{
+    width: 108%;
     background-color: #e056fd;
     background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%);
     border: 2px solid black;
-}
-.section1{
     background-image: url(./fotos/primera_imagen2.0.jpeg);
     background-size: cover;
     height: 40rem;
     text-align: center;
 }
-.section2{
-    background-image: url(./fotos/indoor_8.png);
-    background-size: cover;
-    height: 40rem;
-    text-align: center;
+.container{
+    width: 108%;
+    border: 2px solid black;
+    margin-left:20px;
+    height: 30rem;
+}
+h6{
+    font-size: 4rem;
+    text-align: start;
+
+}
+h4{
+    font-style: italic;
+    font-size: 2rem;
 }
 .comprarclasestitle{
     font-style: bold;
@@ -61,6 +68,10 @@ section{
     background-color: black;
 }
 .section3{
+    width: 108%;
+    background-color: #e056fd;
+    background-image: linear-gradient(315deg, #e056fd 0%, #000000 74%);
+    border: 2px solid black;
     background-image: url(./fotos/indoor_5.jpeg);
     background-size: cover;
     height: 40rem;
