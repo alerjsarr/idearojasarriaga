@@ -35,6 +35,7 @@ nav ul a:hover{
 /*PÁGINA PRINCIPAL*/
 main{
     text-align: center;
+    margin-top: 55px;
 }
 .section1{
     width: 108%;
