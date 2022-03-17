@@ -17,19 +17,43 @@
 </head>
 <body>
  <!--ESPACIO LOGO Y MENÚ-->
-    <header class="menu">
-        <nav>
-        <h2>OUR    RIDE</h2>
-            <ul>
-                <li> <a href="idea_rojas.html">HOME </a> </li>
-                <li> <a href="reserva_clase.html">RESERVAR CLASE</a>  </li>
-                <li> <a href="comprar_clase.html">COMPRAR CLASE</a>  </li>
-                <li> <a href="nosotros_galeria.html">NOSOTROS</a> </li>
-                <li> <a href="login.html">LOGIN </a></li>
-                <li> <a href="crear_cuenta.html"> CREA TU CUENTA </a></li>
-            </ul>
-        </nav>
-    </header>
+ <nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+  <img src="./fotos/favicon_io (1)/favicon.ico" alt="" width="30" height="30">
+    <a class="navbar-brand" href="#">O U R ◎ R I D E</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header bg-dark">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-dark">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="idea_rojas.html">HOME</a>
+          </li><br>
+          <li class="nav-item">
+            <a class="nav-link" href="reserva_clase.html">RESERVAR CLASE</a>
+          </li><br>
+          <li class="nav-item">
+              <a class="nav-link" href="comprar_clase.html">COMPRAR CLASE</a>
+            </li><br>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros_galeria.html">NOSOTROS</a>
+            </li><br>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">LOGIN</a>
+            </li><br>
+            <li class="nav-item">
+              <a class="nav-link" href="crear_cuenta.html">CREA TU CUENTA</a>
+            </li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
 <!---PÁGINA PRINCIPAL-->
     <main>
         <section class="section1 animate__animated animate__fadeInLeft">
