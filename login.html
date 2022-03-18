@@ -59,9 +59,22 @@
     <!--inserta imagen de fondo-->
     <section class="iniciarsesion">
         <h3>Iniciar sesión</h3>
-        <input type="text" placeholder="Email"> <br>
-        <input type="password" placeholder="Contraseña"> <br>
-        <input type="submit" value="Entrar a mi cuenta">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">*esta información no se comparte con nadie</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Mantener mi sesión abierta</label>
+          </div>
+          <button type="submit" class="btn btn-light">LOGIN</button>
+        </form>
     </section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
